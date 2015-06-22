@@ -1,0 +1,11 @@
+<div id="play_back" class="button" title="Back" {{action playPrevious}}>
+  <div></div><div></div>
+</div>
+<div id="play_pause" class="button" title="Play/Pause">
+  <div {{bind-attr class="isPlaying:pause:play"}} {{action togglePlayPause}}></div>
+</div>
+<div id="play_forward" class="button" title="Next" {{action playNext}}>
+  <div></div><div></div>
+</div>
+<div id="volume"></div>
+{{view Pg.currentTrackInfoView}}

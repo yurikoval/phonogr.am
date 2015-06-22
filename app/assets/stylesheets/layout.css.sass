@@ -1,0 +1,33 @@
+$left_bar_width: 164px
+$top_bar_height: 75px
+body, input, select
+  font-family: 'Titillium Web', sans-serif
+.controls, .left_bar, .playlist, .player, .search
+  position: fixed
+.controls
+  height: $top_bar_height
+  top: 0px
+  left: 0px
+  right: 200px
+.left_bar
+  width: $left_bar_width
+  left: 0px
+  top: $top_bar_height
+  bottom: 100px
+  overflow: auto
+.playlist
+  top: $top_bar_height
+  bottom: 0px
+  left: $left_bar_width
+  right: 0px
+  overflow: scroll
+  font-size: 13px
+.player
+  height: 100px
+  width: $left_bar_width
+  left: 0px
+  bottom: 0px
+.search
+  top: 0px
+  right: 0px
+  width: 200px
