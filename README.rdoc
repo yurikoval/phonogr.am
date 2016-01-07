@@ -1,5 +1,7 @@
 == README
 
+{<img src="https://badges.gitter.im/yurikoval/phonogr.am.svg" alt="Join the chat at https://gitter.im/yurikoval/phonogr.am">}[https://gitter.im/yurikoval/phonogr.am?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge]
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
